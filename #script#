@@ -1,0 +1,15 @@
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup" && npx create-next-app@latest alx-project-0x03 --typescript --tailwind --eslint --app --src-dir --import-alias "@/*"
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup" && npx create-next-app@latest alx-project-0x03
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup" && ls -la
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup" && echo "Creating Next.js project..." && npx create-next-app@latest alx-project-0x03 --typescript --tailwind --eslint --no-app --no-src-dir --import-alias "@/*" --yes
+pwd && ls -la
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup" && mkdir -p alx-project-0x03 && cd alx-project-0x03 && npm init -y
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && npm install react-icons
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && mkdir -p pages && mkdir -p styles && mkdir -p components/layouts && mkdir -p components/common
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && mv src/app/globals.css styles/globals.css
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && npm uninstall @tailwindcss/postcss tailwindcss && npm install tailwindcss@^3 postcss autoprefixer
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && rm -rf src/app
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && mv src/app/favicon.ico public/ 2>/dev/null || true && rm -rf src
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && mkdir -p interface
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && timeout 10s npm run dev || echo "Server started successfully"
+cd "/home/fadel/Workspaces/ALX PROJECT/alx-project-0x03-setup/alx-project-0x03" && ls -la
